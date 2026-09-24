@@ -1,0 +1,12 @@
+bin/
+obj/
+node_modules/
+publish/
+data/
+*.db
+*.db-shm
+*.db-wal
+.env
+.env.*
+!.env.example
+supabase/.temp/
