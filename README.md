@@ -1,4 +1,4 @@
-# Fuerza — publicación en GitHub Pages
+# Phantom Entrenamiento — publicación en GitHub Pages
 
 La aplicación se sirve como web estática desde `wwwroot/` mediante GitHub Pages. Supabase proporciona inicio de sesión y PostgreSQL persistente; el navegador no almacena los datos de entrenamiento (solo conserva la sesión de autenticación). Cada llamada a los datos está limitada por Row Level Security (RLS). La gestión de usuarios usa una Edge Function protegida y su clave privada nunca se publica.
 
